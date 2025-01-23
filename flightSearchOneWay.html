@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Book cheap flight tickets and airline tickets online with Traveliva</title>
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon1.png" type="image/x-icon">
 
     <!--!--------------- Bootstrap CSS ---------------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -32,12 +32,10 @@
 
 <body>
 
-    <!--?------------------------- Header Section Start ---------------------->
-
     <nav class="navbar navbar-expand-lg bg-white shadow" id="navbar" >
         <div class="container">
             <a class="navbar-brand headerLogo" href="index.html">
-                <img src="assets/logo1.png" class="object-fit-cover w-100 h-100" alt="">
+                <img src="assets/logo3.png" class="object-fit-cover w-100 h-100" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -71,360 +69,336 @@
         </div>
     </nav>
 
-    <!--?------------------------- Header Section End ---------------------->
-
-
-    <!--?--------------------------Main Section Start --------------------------------->
-
-    <div class="mainSetion">
-        <div class="container">
-            <h1 class="mainHeading">Explore the world, one unforgettable journey at a time</h1>
-            <div class="flightSearchSection">
-                <form action="#">
-                    <div class="tripType">
-                        <label for="twoWay" class="active">
-                            <input type="radio" name="tripType" id="twoWay" value="twoWay" checked>
-                            Round Trip
-                        </label>
-                        <label for="oneWay" class="">
-                            <input type="radio" name="tripType" id="oneWay" value="oneWay">
-                            One Way
-                        </label>
+    <div class="modifySearch" >
+        <div class="container" >
+            <p class="fghjkl" >You searched for</p>
+            <div class="gctvyuiljhgbw" >
+                <div class="modyvghjkl" >
+                    <div class="wouehouwvwef" >
+                        <div>
+                            Boston (BOS) <i class="fa-solid fa-arrow-right px-2"></i> Atlanta (ATL)
+                        </div>
+                        <div class="vghuioijh" >
+                            31 Jan, 2025
+                        </div>
+                        <div class="vghuioijh" >
+                            1 Adult, 1 Children, 1 Infant
+                        </div>
+                        <div class="vghuioijh" >
+                            Economy
+                        </div>
                     </div>
-                    <div class="entrySection">
-                        <div class="firstCh1">
-                            <label for="fromDestination">From</label>
-                            <div class="positioReiiiad">
-                                <i class="fa-solid fa-plane-departure suppTag"></i>
-                                <!-- <i class="fa-solid fa-arrow-right-arrow-left rotate"></i> -->
-                                <input type="text" class="selectAirlineType" data-div="fromDestiDiv" id="fromDestination" name="fromDestination" placeholder="Leaving From" autocomplete="off" required >
-                                <div class="ewawegWEWE" id="fromDestiDiv" >
-                                    <ul>
-                                        <li onclick="handleSubmitAirline('fromDestination','fromDestiDiv','New Delhi','Delhi Indira Gandhi Int','DEL','India')" >
-                                            <i class="fa-solid fa-plane-up"></i>
-                                            New Delhi - Delhi Indira Gandhi Int: [DEL] - India
-                                        </li>
-                                        <li onclick="handleSubmitAirline('fromDestination','fromDestiDiv','Porlamar','Delcaribe Gen S Marino Arpt','PMV','Venezuela')" >
-                                            <i class="fa-solid fa-plane-up"></i>
-                                            Porlamar - Delcaribe Gen S Marino Arpt: [PMV] - Venezuela
-                                        </li>
-                                        <li onclick="handleSubmitAirline('fromDestination','fromDestiDiv','Silao','Leon-Del Bajio Arpt','BJX','Mexico')" >
-                                            <i class="fa-solid fa-plane-up"></i>
-                                            Silao - Leon-Del Bajio Arpt: [BJX] - Mexico
-                                        </li>
-                                    </ul>
+                    <div class="modButtonhaefef">
+                        <div id="modifySectionToggle" >
+                            <i class="fa-solid fa-pencil"></i> Modify Search
+                        </div>
+                    </div>
+                </div>
+                <div class="flightSearchSection ytycytckgctd" id="modifySection" >
+                    <form action="flightSearchOneWay.html" method="get">
+                        <div class="tripType">
+                            <label for="twoWay" class="active">
+                                <input type="radio" name="tripType" id="twoWay" value="twoWay" checked>
+                                Round Trip
+                            </label>
+                            <label for="oneWay" class="">
+                                <input type="radio" name="tripType" id="oneWay" value="oneWay">
+                                One Way
+                            </label>
+                        </div>
+                        <div class="entrySection">
+                            <div class="firstCh1">
+                                <label for="fromDestination">From</label>
+                                <div class="positioReiiiad">
+                                    <i class="fa-solid fa-plane-departure suppTag"></i>
+                                    <!-- <i class="fa-solid fa-arrow-right-arrow-left rotate"></i> -->
+                                    <input type="text" class="selectAirlineType" data-div="fromDestiDiv" id="fromDestination" name="fromDestination" placeholder="Leaving From" autocomplete="off" required >
+                                    <div class="ewawegWEWE" id="fromDestiDiv" >
+                                        <ul>
+                                            <li onclick="handleSubmitAirline('fromDestination','fromDestiDiv','New Delhi','Delhi Indira Gandhi Int','DEL','India')" >
+                                                <i class="fa-solid fa-plane-up"></i>
+                                                New Delhi - Delhi Indira Gandhi Int: [DEL] - India
+                                            </li>
+                                            <li onclick="handleSubmitAirline('fromDestination','fromDestiDiv','Porlamar','Delcaribe Gen S Marino Arpt','PMV','Venezuela')" >
+                                                <i class="fa-solid fa-plane-up"></i>
+                                                Porlamar - Delcaribe Gen S Marino Arpt: [PMV] - Venezuela
+                                            </li>
+                                            <li onclick="handleSubmitAirline('fromDestination','fromDestiDiv','Silao','Leon-Del Bajio Arpt','BJX','Mexico')" >
+                                                <i class="fa-solid fa-plane-up"></i>
+                                                Silao - Leon-Del Bajio Arpt: [BJX] - Mexico
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="firstCh1">
-                            <label for="toDestination">To</label>
-                            <div class="positioReiiiad">
-                                <i class="fa-solid fa-plane-arrival suppTag"></i>
-                                <input type="text" class="selectAirlineType" data-div="toDestiDiv" id="toDestination" name="toDestination" placeholder="Going To" autocomplete="off" required>
-                                <div class="ewawegWEWE" id="toDestiDiv" >
-                                    <ul>
-                                        <li onclick="handleSubmitAirline('toDestination','toDestiDiv','New Delhi','Delhi Indira Gandhi Int','DEL','India')" >
-                                            <i class="fa-solid fa-plane-up"></i>
-                                            New Delhi - Delhi Indira Gandhi Int: [DEL] - India
-                                        </li>
-                                        <li onclick="handleSubmitAirline('toDestination','toDestiDiv','Porlamar','Delcaribe Gen S Marino Arpt','PMV','Venezuela')" >
-                                            <i class="fa-solid fa-plane-up"></i>
-                                            Porlamar - Delcaribe Gen S Marino Arpt: [PMV] - Venezuela
-                                        </li>
-                                        <li onclick="handleSubmitAirline('toDestination','toDestiDiv','Silao','Leon-Del Bajio Arpt','BJX','Mexico')" >
-                                            <i class="fa-solid fa-plane-up"></i>
-                                            Silao - Leon-Del Bajio Arpt: [BJX] - Mexico
-                                        </li>
-                                    </ul>
+                            <div class="firstCh1">
+                                <label for="toDestination">To</label>
+                                <div class="positioReiiiad">
+                                    <i class="fa-solid fa-plane-arrival suppTag"></i>
+                                    <input type="text" class="selectAirlineType" data-div="toDestiDiv" id="toDestination" name="toDestination" placeholder="Going To" autocomplete="off" required>
+                                    <div class="ewawegWEWE" id="toDestiDiv" >
+                                        <ul>
+                                            <li onclick="handleSubmitAirline('toDestination','toDestiDiv','New Delhi','Delhi Indira Gandhi Int','DEL','India')" >
+                                                <i class="fa-solid fa-plane-up"></i>
+                                                New Delhi - Delhi Indira Gandhi Int: [DEL] - India
+                                            </li>
+                                            <li onclick="handleSubmitAirline('toDestination','toDestiDiv','Porlamar','Delcaribe Gen S Marino Arpt','PMV','Venezuela')" >
+                                                <i class="fa-solid fa-plane-up"></i>
+                                                Porlamar - Delcaribe Gen S Marino Arpt: [PMV] - Venezuela
+                                            </li>
+                                            <li onclick="handleSubmitAirline('toDestination','toDestiDiv','Silao','Leon-Del Bajio Arpt','BJX','Mexico')" >
+                                                <i class="fa-solid fa-plane-up"></i>
+                                                Silao - Leon-Del Bajio Arpt: [BJX] - Mexico
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="firstCh1 fghuio">
-                            <label for="departDate">Depart Date</label>
-                            <div class="positioReiiiad">
-                                <i class="fa-solid fa-calendar-days suppTag"></i>
-                                <input type="text" class="" id="departDate" name="departDate" placeholder="DD/MM/YYYY" autocomplete="off" >
+                            <div class="firstCh1 fghuio">
+                                <label for="departDate">Depart Date</label>
+                                <div class="positioReiiiad">
+                                    <i class="fa-solid fa-calendar-days suppTag"></i>
+                                    <input type="text" class="" id="departDate" name="departDate" placeholder="DD/MM/YYYY" autocomplete="off" >
+                                </div>
+                            </div>
+                            <div class="firstCh1 fghuio" id="returnDiv" >
+                                <label for="returnDate">Return Date</label>
+                                <div class="positioReiiiad">
+                                    <i class="fa-solid fa-calendar-days suppTag"></i>
+                                    <input type="text" class="" id="returnDate" name="returnDate" placeholder="DD/MM/YYYY" autocomplete="off" >
+                                </div>
+                            </div>
+                            <div class="firstCh2">
+                                <label for="returnDate">Adult</label>
+                                <select class="" name="adult" >
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                </select>
+                            </div>
+                            <div class="firstCh2">
+                                <label for="returnDate">Child</label>
+                                <select class="" name="child" >
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                            </div>
+                            <div class="firstCh2">
+                                <label for="returnDate">Infant</label>
+                                <select class="" name="infant" >
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="firstCh3">
+                                <label for="returnDate">Class</label>
+                                <select>
+                                    <option value="Economy">Economy</option>
+                                    <option value="Premium Economy">Premium Economy</option>
+                                    <option value="Business">Business</option>
+                                    <option value="First Class">First Class</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="firstCh1 fghuio" id="returnDiv" >
-                            <label for="returnDate">Return Date</label>
-                            <div class="positioReiiiad">
-                                <i class="fa-solid fa-calendar-days suppTag"></i>
-                                <input type="text" class="" id="returnDate" name="returnDate" placeholder="DD/MM/YYYY" autocomplete="off" >
-                            </div>
+                        <div class="searchButton" >
+                            <button type="submit" >Search</button>
                         </div>
-                        <div class="firstCh2">
-                            <label for="returnDate">Adult</label>
-                            <select class="" name="adult" >
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                            </select>
-                        </div>
-                        <div class="firstCh2">
-                            <label for="returnDate">Child</label>
-                            <select class="" name="child" >
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                            </select>
-                        </div>
-                        <div class="firstCh2">
-                            <label for="returnDate">Infant</label>
-                            <select class="" name="infant" >
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                            </select>
-                        </div>
-                        <div class="firstCh3">
-                            <label for="returnDate">Class</label>
-                            <select>
-                                <option value="Economy">Economy</option>
-                                <option value="Premium Economy">Premium Economy</option>
-                                <option value="Business">Business</option>
-                                <option value="First Class">First Class</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="searchButton" >
-                        <button type="submit" >Search</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!--?--------------------------Main Section End --------------------------------->
-
-    <!--?------------------------- Book With Us Start -------------------------------->
-
-    <div class="whyWithUs" >
-        <div class="container">
-            <div class="cfvghjklkjhbv" >
-                <h2 class="mainewewe" ><span>Why</span> Book With Us ?</h2>
-            </div>
-            <div class="firstCHild" >
-                <div>
-                    <div class="imgWhy" >
-                        <img src="./assets/dollar-symbol.png" class="w-100 h-100 object-fit-cover" alt="">
-                    </div>
-                    <div>
-                        <h4>Best Price Guarantee</h4>
-                        <p>Discover unbeatable deals and exclusive discounts at Best Price—where smart shopping meets incredible savings!</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="imgWhy" >
-                        <img src="./assets/booking.png" class="w-100 h-100 object-fit-cover" alt="">
-                    </div>
-                    <div>
-                        <h4> Easy Booking </h4>
-                        <p>Experience hassle-free travel with our easy booking website—secure your dream getaway in just a few clicks!</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="imgWhy" >
-                        <img src="./assets/shield.png" class="w-100 h-100 object-fit-cover" alt="">
-                    </div>
-                    <div>
-                        <h4>Quick & Secure Bookings</h4>
-                        <p>Experience peace of mind with our secure booking website, where your privacy and safety are our top priorities.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="imgWhy" >
-                        <img src="./assets/customer-service.png" class="w-100 h-100 object-fit-cover" alt="">
-                    </div>
-                    <div>
-                        <h4>Customer Support</h4>
-                        <p>At our customer support, your satisfaction is our priority—reach out anytime for personalized solutions! </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!--?------------------------- Book With Us End ---------------------------------->
-    
-    <!--?------------------------- Deal and Offers Slider Start ---------------------------------->
-    
-    <div class="container py-4">
-        <div class="cfvghjklkjhbv" >
-            <h2 class="mainewewe" ><span>Deals</span> and Offers</h2>   
-        </div>
-        <div class="dealOfferMain responsive" >
-            <div class="firsterwiei" >
-                <div>
-                    <a href="#">
-                        <div class="first" >
-                            <img src="assets/usa.jpg" class="w-100 h-100 object-fit-cover" alt="">
-                        </div>
-                        <div class="second" >
-                            <div class="cvghjkl">
-                                USA Offers
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="firsterwiei" >
-                <div>
-                    <a href="#">
-                        <div class="first" >
-                            <img src="assets/united-kingdom.jpg" class="w-100 h-100 object-fit-cover" alt="">
-                        </div>
-                        <div class="second" >
-                            <div class="cvghjkl">
-                                UK Offers
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="firsterwiei" >
-                <div>
-                    <a href="#">
-                        <div class="first" >
-                            <img src="assets/canada.jpg" class="w-100 h-100 object-fit-cover" alt="">
-                        </div>
-                        <div class="second" >
-                            <div class="cvghjkl">
-                                Canada Offers
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="firsterwiei" >
-                <div>
-                    <a href="#">
-                        <div class="first" >
-                            <img src="assets/australia.jpg" class="w-100 h-100 object-fit-cover" alt="">
-                        </div>
-                        <div class="second" >
-                            <div class="cvghjkl">
-                                Australia Offers
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="firsterwiei" >
-                <div>
-                    <a href="#">
-                        <div class="first" >
-                            <img src="assets/usa.jpg" class="w-100 h-100 object-fit-cover" alt="">
-                        </div>
-                        <div class="second" >
-                            <div class="cvghjkl">
-                                USA Offers
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="firsterwiei" >
-                <div>
-                    <a href="#">
-                        <div class="first" >
-                            <img src="assets/united-kingdom.jpg" class="w-100 h-100 object-fit-cover" alt="">
-                        </div>
-                        <div class="second" >
-                            <div class="cvghjkl">
-                                UK Offers
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--?------------------------- Deal and Offers Slider End ---------------------------------->
-
-    <div class="container moreABoutUs py-3 py-md-4">
-        <h4>Book your flight ticket with Traveliva for a memorable experience.</h4>
-        <p> 
-            Traveliva.us offers great deals on air tickets. Book flights for all destinations across World or the world at the lowest airfares with us. As one of the leading travel portals of World, we constantly endeavour to make your vacation memorable. So, why go anywhere else? Call us to save big on all kinds of travel products/services and have a memorable travel experience on a small budget. We believe in creating awesome vacations for our clients through customized holiday packages & tours. Enjoy great savings on flights, hotels and holiday trips with Traveliva.us.
-        </p>
-        <p>
-            Cheap flights are available at Traveliva.us, one of the leading travel portals in World. The company offers great discounts on domestic and international flight tickets. Being a reliable name in the traveling industry of World, we focus on providing a smooth providing booking experience to our customers. So, book air tickets at the lowest airfare by planning your trip with us. You can also get all relevant information like how to get the boarding passes, the difference between airline tickets and boarding pass tickets, flight status, arrival and departure times of the flights, web check-in and various information one needs to have before traveling.
-        </p>
-    </div>
-
-    <!-- <div class="container py-4">
-        <div class="cfvghjklkjhbv" >
-            <h2 class="mainewewe" ><span>Frequently</span> Asked Questions</h2>   
-        </div>
-        <div class="mt-3" >
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
-                    </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
-                    </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
-                    </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="subscriberDiv" >
-        <div class="container py-4">
-            <div class="d-flex flex-column flex-lg-row row-gap-3 wedrfgthj wedrftgyhujkl">
-                <div>
-                    <h3>Subscribe our Newsletter</h3>
-                    <p>Receive our latest offers, trends & stories direct to your inbox.</p>
-                </div>
-                <div>
-                    <form action="#">
-                        <input type="email" name="email" placeholder="Email address" autocomplete="off" required > 
-                        <button type="submit" >Subscribe</button>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="flightResultMainbhj" >
+            <div class="filterSection" >
+                <div class="hevybooubub" >
+                    Filter Your <b>Results</b>
+                    <div class="ouwjevbw" ><i class="fa-solid fa-filter"></i></div>
+                </div>
+                <div class="containettbiv">
+                    <div>
+                        <div class="heaubfobbbfef">Stops</div>
+                        <div class="gyuistopUbdubv" >
+                            <div>
+                                <input type="checkbox" name="" id="notStop">
+                                <label for="notStop" >Non Stop</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="oneStop">
+                                <label for="oneStop">1 Stop</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="twoStop">
+                                <label for="twoStop">Non Stop</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heaubfobbbfef">Price Range</div>
+                        <div class="wrbwrbbwrv" >
+                            <div id="amount1" ></div>
+                            <div id="amount2" ></div>
+                        </div>
+                        <div id="slider-range"></div>
+                    </div>
+                    <div>
+                        <div class="heaubfobbbfef">Departure Timing</div>
+                        <div class="timingmainienw" >
+                            <label for="depBeforeEM" >
+                                <input type="checkbox" name="" id="depBeforeEM" >
+                                <div>
+                                    <img src="assets/em.png" alt="early-morning">
+                                </div>
+                                <div>
+                                    Before 6AM
+                                </div>
+                            </label>
+                            <label for="depBeforeM" >
+                                <input type="checkbox" name="" id="depBeforeM" >
+                                <div>
+                                    <img src="assets/m.png" alt="morning">
+                                </div>
+                                <div>
+                                    6AM - 12PM
+                                </div>
+                            </label>
+                            <label for="depBeforeA" >
+                                <input type="checkbox" name="" id="depBeforeA" >
+                                <div>
+                                    <img src="assets/a.png" alt="afternoon">
+                                </div>
+                                <div>
+                                    12PM - 6PM
+                                </div>
+                            </label>
+                            <label for="depBeforeE" >
+                                <input type="checkbox" name="" id="depBeforeE" >
+                                <div>
+                                    <img src="assets/e.png" alt="evening">
+                                </div>
+                                <div>
+                                    After 6PM
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heaubfobbbfef">Return Timing</div>
+                        <div class="timingmainienw" >
+                            <label for="returnBeforeEM" >
+                                <input type="checkbox" name="" id="returnBeforeEM" >
+                                <div>
+                                    <img src="assets/em.png" alt="early-morning">
+                                </div>
+                                <div>
+                                    Before 6AM
+                                </div>
+                            </label>
+                            <label for="returnBeforeM" >
+                                <input type="checkbox" name="" id="returnBeforeM" >
+                                <div>
+                                    <img src="assets/m.png" alt="morning">
+                                </div>
+                                <div>
+                                    6AM - 12PM
+                                </div>
+                            </label>
+                            <label for="returnBeforeA" >
+                                <input type="checkbox" name="" id="returnBeforeA" >
+                                <div>
+                                    <img src="assets/a.png" alt="afternoon">
+                                </div>
+                                <div>
+                                    12PM - 6PM
+                                </div>
+                            </label>
+                            <label for="returnBeforeE" >
+                                <input type="checkbox" name="" id="returnBeforeE" >
+                                <div>
+                                    <img src="assets/e.png" alt="evening">
+                                </div>
+                                <div>
+                                    After 6PM
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heaubfobbbfef">Departure Airline</div>
+                        <div class="gyuistopUbdubv" >
+                            <div>
+                                <input type="checkbox" name="" id="Frontier Airlines Airlines">
+                                <label for="Frontier Airlines Airlines">Frontier Airlines Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="Spirit Airlines Airlines">
+                                <label for="Spirit Airlines Airlines">Spirit Airlines Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="jetBlue Airlines">
+                                <label for="jetBlue Airlines">jetBlue Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="Delta Airlines">
+                                <label for="Delta Airlines">Delta Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="United Airlines">
+                                <label for="United Airlines">United Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="American Airlines Airlines">
+                                <label for="American Airlines Airlines">American Airlines Airlines</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heaubfobbbfef">Return Airline</div>
+                        <div class="gyuistopUbdubv" >
+                            <div>
+                                <input type="checkbox" name="" id="Frontier Airlines Airlines">
+                                <label for="Frontier Airlines Airlines">Frontier Airlines Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="Spirit Airlines Airlines">
+                                <label for="Spirit Airlines Airlines">Spirit Airlines Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="jetBlue Airlines">
+                                <label for="jetBlue Airlines">jetBlue Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="Delta Airlines">
+                                <label for="Delta Airlines">Delta Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="United Airlines">
+                                <label for="United Airlines">United Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="American Airlines Airlines">
+                                <label for="American Airlines Airlines">American Airlines Airlines</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resultSection" >
             </div>
         </div>
     </div>
@@ -434,7 +408,7 @@
             <div class="row row-gap-3">
                 <div class="col-12 col-md-8 col-lg-5 pe-md-5">
                     <div class="footerLogo">
-                        <img src="assets/logo1.png" alt="logo" class="w-auto h-100 object-fit-cover" >
+                        <img src="assets/logo3.png" alt="logo" class="w-auto h-100 object-fit-cover" >
                     </div>
                     <div class="mt-4 morefghjk" >
                         <p>At Traveliva, we believe that travel is more than just a trip—it's about creating memories that last a lifetime. With our customer-first approach and focus on quality, we're here to help you explore new destinations and discover the world in a way that's as unique as you are. Join us in making your travel dreams a reality!</p>
@@ -515,6 +489,34 @@
     </script>
 
     <script src="js/script.js"></script>
+
+    <script>
+        
+        $( function() {
+            $( "#slider-range" ).slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [ 75, 300 ],
+                slide: function( event, ui ) {
+                    $( "#amount1" ).text( "$" + ui.values[ 0 ] );
+                    $( "#amount2" ).text( "$" + ui.values[ 1 ] );
+                }
+            });
+            $( "#amount1" ).text( "$" + $( "#slider-range" ).slider( "values", 0 ) );
+            $( "#amount2" ).text( "$" + $( "#slider-range" ).slider( "values", 1 ) );
+        });
+        
+
+        $(document).ready(function(){
+
+            $("#modifySectionToggle").click(function(){
+                $("#modifySection").toggleClass('active')
+            })
+
+        })
+
+    </script>
 
 </body>
 

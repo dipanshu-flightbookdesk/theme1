@@ -1,11 +1,14 @@
 
 :root{
-    --main-clr: #e54141;
-    --dark-main: #3b0000;
+    --main-clr: #024070;
+    --main-clr-2: #c5def1;
+    --light-main: #c8dcec;
+    --dark-main: #000000;
     --footer-bottom: #000000;
-    --footer-bg: #212121;
+    --footer-bg: #352424;
     --footer-colorLight: #cccccc;
     --footer-heading: #e1e1e1;
+    --custom-gray: #555555;
 }
 
 body{
@@ -13,12 +16,12 @@ body{
 }
 
 ::selection{
-    background: var(--main-clr);color: whtie;
+    background: var(--main-clr);color: white;
 }
 
 
 .headerLogo{
-    height: 45px;
+    height: 48px;
 }
 .callBtn{
     border-radius: 24px;border: 2px solid var(--main-clr);padding: 5px 20px !important;font-weight:600;color:var(--main-clr);transition: all ease-in-out .2s;width: fit-content;
@@ -37,13 +40,11 @@ body{
     z-index: 2;
 }
 .navbar.active{
-    position: fixed;top: -70px;left: 0;width: 100%;z-index: 2;transition: all ease-in-out .3s;
+    position: fixed;top: -70px;left: 0;width: 100%;z-index: 5;transition: all ease-in-out .3s;
 }
 .navbar.active1{
     top: 0;
 }
-
-/********************************** Main Section Css Start *****************************************/
 
 .mainSetion{
     position: relative;background-color: rgba(0,0,0,0.5);
@@ -60,6 +61,12 @@ body{
 }
 .flightSearchSection{
     margin-top: 3rem;background-color: white;border-radius: 1rem;padding: 1.5rem;position: relative;padding-bottom: 2.5rem;
+}
+.flightSearchSection.ytycytckgctd{
+    margin-top: 0;border-radius: 0px;position: relative;height: 0px;padding: 0;opacity: 0;transition: all ease-in-out .4s;pointer-events: none;user-select: none;
+}
+.flightSearchSection.ytycytckgctd.active{
+    height: 11em;opacity: 1;border-top: 1px solid #ddd;margin-top: 12px;padding-top: 20px;pointer-events: all;user-select: revert;
 }
 .flightSearchSection .tripType{
     display: flex;align-items: center;gap: 10px;
@@ -138,11 +145,6 @@ body{
     padding:6px 14px;padding-left: 32px;outline: none;width: 100%;border: 1px solid #4e4e4e;border-radius:4px;font-size: 14px;
 }
 
-/********************************** Main Section Css End *****************************************/
-
-
-/********************************** Why With Us Css End *****************************************/
-
 .whyWithUs{
     background: #f5f5f5;padding: 2rem 0;
 }
@@ -172,9 +174,6 @@ body{
     content: '';position: absolute;left: 0;bottom: -1px;width: 100px;background: var(--main-clr);height: 2px;
 }
 
-/********************************** Why With Us Css End *****************************************/
-
-/********************************** Deal and Offers Css Start *****************************************/
 
 .dealOfferMain{
     margin-top: 1.5rem;
@@ -214,7 +213,6 @@ body{
     transform: scale(1.1);
 }
 
-/********************************** Deal and Offers Css End *****************************************/
 
 .moreABoutUs h4{
     font-size: 18px;font-weight: 600;margin-bottom: 1rem;
@@ -243,10 +241,10 @@ footer ul li a{
     text-decoration: none;color: var(--footer-colorLight);font-weight: 400;transition: all ease-in-out .1s;
 }
 footer ul li i{
-    color: var(--main-clr);
+    color: var(--main-clr-2);
 }
 footer ul li a:hover{
-    color: var(--main-clr);
+    color: var(--main-clr-2);
 }
 footer .fooSecHead{
     font-size: 18px;color: var(--footer-heading);margin-top: 12px;font-weight: 600;
@@ -267,16 +265,16 @@ footer .copyright{
 }
 
 footer .socialMedia a{
-    border: 1px solid var(--main-clr);border-radius: 50%;width: 35px;height: 35px;display: grid;place-items: center;cursor: pointer;text-decoration: none;font-size: 14px;
+    border: 1px solid var(--main-clr-2);border-radius: 50%;width: 35px;height: 35px;display: grid;place-items: center;cursor: pointer;text-decoration: none;font-size: 14px;
 }
 footer .socialMedia a{
-    color: var(--main-clr);
+    color: var(--main-clr-2);
 }
 footer .socialMedia a i{
     transition: all ease-in-out .3s;
 }
 footer .socialMedia:hover a{
-    background: var(--main-clr);
+    background: var(--main-clr-2);
 }
 footer .socialMedia:hover i{
     transform:rotateY(180deg);color: white;
@@ -305,8 +303,121 @@ footer .socialMedia:hover i{
     background: #fff;color: var(--main-clr);border-color: #fff;
 }
 
-@media (min-width: 992px) {
 
+/*!------------------------ Flight Search Page CSS ------------------------------------ */
+
+.modifySearch{
+    background-image: url('../assets/flightSearchBg.png');background-position:bottom;background-repeat: repeat-x;
+    padding-top: 3rem;
+}
+.modifySearch .fghjkl{
+    font-size: 14px;font-weight: 500;color: var(--main-clr);margin-bottom: 4px;
+}
+
+.modifySearch .gctvyuiljhgbw{
+    box-shadow: 0 0 10px 4px #00000017;padding: 12px 1rem;background-color: white;border-radius: 4px;
+}
+.modifySearch .modyvghjkl{
+    border-radius: 4px;display: flex;align-items: center;justify-content: space-between;
+}
+
+.modifySearch .wouehouwvwef{
+    display: flex;align-items: center;gap: 1rem;
+}
+.modifySearch .wouehouwvwef>div{
+    font-size: 14px ;font-weight: 500;
+}
+.modifySearch .wouehouwvwef .vghuioijh{
+    position: relative;padding-left: 1rem;
+}
+.modifySearch .wouehouwvwef .vghuioijh::before{
+    content: '';position: absolute;top: 0;left:0;border-left: 1px solid;height: 100%;
+}
+.modifySearch .modButtonhaefef>div{
+    padding: 6px 12px;background: var(--main-clr);cursor: pointer;border-radius: 4px;font-size: 14px;color: white;display: flex;align-items: center;justify-content: space-between;gap: 8px;
+}
+
+.flightResultMainbhj{
+    margin-top: 2rem;display: flex;justify-content: space-between;margin-bottom: 2rem;
+}
+.flightResultMainbhj .filterSection{
+    width: 24%;background: white;box-shadow: 0 2px 3px rgba(0, 0, 0, .1607843137);border-radius: 2px;
+}
+.flightResultMainbhj .filterSection .hevybooubub{
+    padding: 1rem;background: var(--main-clr);color: white;text-align: center;position: relative;padding-bottom: 1.8rem;
+}
+.flightResultMainbhj .filterSection .hevybooubub .ouwjevbw{
+    position: absolute;right: 47%;height: 40px;width: 40px;border-radius: 50%;border: 4px solid;font-size: 12px;display: grid;place-items: center;bottom: -16px;background: var(--main-clr);z-index: 2;
+}
+.flightResultMainbhj .containettbiv{
+    padding: 0.5rem 1rem;
+    /* max-height: 500px;overflow: auto; */
+}
+.flightResultMainbhj .containettbiv>div{
+    padding:12px 0;border-bottom: 1px solid #ddd;
+}
+.flightResultMainbhj .containettbiv>div:last-child{
+    border: 0;
+}
+.flightResultMainbhj .containettbiv .heaubfobbbfef{
+    font-size: 14px;font-weight: 600;color: var(--main-clr);margin-bottom: .7rem;
+}
+.containettbiv .gyuistopUbdubv{
+    display: flex;flex-direction:column;gap: 6px;
+}
+.containettbiv .gyuistopUbdubv>div{
+    display: flex;align-items: center;gap: 10px;
+}
+.containettbiv .gyuistopUbdubv label{
+    font-size: 13px;font-weight: 400;color: var(--custom-gray);
+}
+.containettbiv .ui-slider-horizontal{
+    margin-bottom: .5rem;
+}
+.containettbiv .ui-slider-horizontal{
+    height: 0.5em;
+}
+.containettbiv .ui-slider-horizontal .ui-slider-range{
+    background: var(--main-clr);
+}
+.containettbiv .ui-widget-content .ui-state-default{
+    border-radius: 50%;top: -0.4em;
+}
+.containettbiv .ui-state-default.ui-state-active{
+    border-color: var(--light-main) ;background: var(--light-main);
+}
+
+.containettbiv .wrbwrbbwrv{
+    display: flex;align-items: center;justify-content: space-between;margin-bottom: 8px;font-size: 14px;font-weight: 400;
+    color: var(--custom-gray);
+}
+.containettbiv .timingmainienw{
+    display: grid;grid-template-columns: repeat(4,1fr);gap: 4px;margin-bottom: 6px;
+}
+.containettbiv .timingmainienw label{
+    padding: 6px;border: 1px solid #ddd;font-size: 12px;color: var(--custom-gray);display: flex;flex-direction: column;align-items: center;text-align: center;border-radius: 4px;gap: 3px;cursor: pointer;transition: all ease-in-out .1s;
+}
+.containettbiv .timingmainienw label:has(input:checked) {
+    border-color: var(--main-clr);color: var(--main-clr);font-weight: 600;
+}
+.containettbiv .timingmainienw label:hover{
+    border-color: var(--light-main);
+}
+.containettbiv .timingmainienw label img{
+    height: 20px;
+}
+.containettbiv .timingmainienw label input{
+    display: none;
+}
+
+.flightResultMainbhj .resultSection{
+    width: calc(100% - 26%)
+}
+
+
+
+@media (min-width: 992px) {
+    
     .cusLink{
         padding: 0px 18px !important;
     }

@@ -55,6 +55,9 @@ $(document).ready(function () {
         onSelect: function(dateText, inst) {
             var departDate = $(this).datepicker('getDate');
             $("#returnDate").datepicker('option', 'minDate', departDate);
+            setTimeout(function() {
+                $("#returnDate").datepicker("show");
+            }, 100);
         }
     });
     
@@ -69,9 +72,11 @@ $(document).ready(function () {
         $(".tripType label").removeClass('active');
         $(this).addClass('active');
         if(forVal == 'oneWay'){
-            $("#returnDiv").hide()
-        }else{
-            $("#returnDiv").show()
+            $("#returnDiv").hide();
+            $("#returnDate").prop('disabled', true); 
+        } else {
+            $("#returnDiv").show();
+            $("#returnDate").prop('disabled', false); 
         }
     })
 
@@ -95,4 +100,14 @@ function handleSubmitAirline(input,div,city,airport,code,country){
     let value = `${city} - ${airport}: [${code}] - ${country}`;
     $(`#${input}`).val(value);
     $(`#${div}`).removeClass('active');
+    if(input == 'fromDestination'){
+        $("#toDestination").focus()
+    }
+    if(input == 'toDestination'){
+        setTimeout(function() {
+            $("#departDate").datepicker("show");
+        }, 100);
+    }
 }
+
+
