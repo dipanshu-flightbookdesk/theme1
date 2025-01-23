@@ -1,0 +1,123 @@
+@media ( max-width: 992px ) {
+
+    .callBtn{
+        margin: 6px 0;
+    }
+    .flightSearchSection .entrySection{
+        flex-wrap: wrap;gap: 12px 6px;
+    }
+    .flightSearchSection .entrySection .firstCh1{
+        width: 48%;
+    }
+    .flightSearchSection .entrySection .firstCh2{
+        width: 12%;
+    }
+    .flightSearchSection .entrySection .firstCh3{
+        width: 30%;
+    }
+    .flightSearchSection .searchButton{
+        top: 93%;
+    }
+    .whyWithUs .firstCHild{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media ( max-width: 768px ) {
+
+    .mainSetion .mainHeading{
+        font-size: 26px;
+    }
+    .cfvghjklkjhbv .mainewewe{
+        font-size: 26px;
+    }
+    .whyWithUs .firstCHild h4{
+        font-size: 16px;
+    }
+    .whyWithUs .firstCHild p{
+        font-size: 12px;
+    }
+    .flightSearchSection .entrySection .firstCh2{
+        width: 15%;
+    }
+    .flightSearchSection .entrySection .firstCh3{
+        width: 49%;
+    }
+    
+}
+
+@media ( max-width: 576px ) {
+
+    .mainSetion{
+        background: #fff;padding: 2rem 0 1rem 0;
+    }
+    .mainSetion .mainHeading{
+        font-size: 20px;color: #000;border-bottom: 1px solid #ddd;padding-bottom: 12px;
+    }
+    .flightSearchSection{
+        margin-top: 1rem;padding:0 10px;
+    }
+    .flightSearchSection .searchButton{
+        position: relative;top: revert;margin-top: 18px;
+    }
+    .flightSearchSection .searchButton button{
+        width: 100%;border-radius: 4px;
+    }
+    .flightSearchSection .tripType label{
+        border: 1px solid #ddd;border-radius: 6px;
+    }
+    .flightSearchSection .tripType label.active{
+        border-radius: 6px;border-color: var(--main-clr);
+    }
+    .flightSearchSection .entrySection{
+        gap: 12px 4px;
+    }
+    .flightSearchSection .entrySection .firstCh1{
+        width: 100%;
+    }
+    .flightSearchSection .entrySection .firstCh1.fghuio{
+        width: 49.3%;
+    }
+    .sliderArrow.fa-arrow-right{
+        right: 0;
+    }
+    .sliderArrow.fa-arrow-left{
+        left: 0;
+    }
+    .whyWithUs .firstCHild{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .subscriberDiv h3{
+        font-size: 18px;
+    }
+    .subscriberDiv p{
+        font-size: 14px;
+    }
+    .subscriberDiv form input,
+    .subscriberDiv form button{
+        font-size: 14px;
+    }
+    .whyWithUs{
+        padding: 1rem 0;
+    }
+    footer .footerPartner > div{
+        height: 40px;
+    }
+
+}
+
+
+@media ( max-width:472px ){
+
+    .flightSearchSection .entrySection .ewawegWEWE{
+        width: 100%;
+    }
+    .flightSearchSection .entrySection .firstCh2{
+        width: 32.4%;
+    }
+    .flightSearchSection .entrySection .firstCh3{
+        width: 100%;
+    }
+    
+}
