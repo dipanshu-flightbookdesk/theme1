@@ -22,6 +22,38 @@
         grid-template-columns: repeat(2,1fr);
     }
 
+    /* ---------------------- Fligt Search Css ------------------------ */
+    .modifySearch .modyvghjkl{
+        flex-direction: column;gap: 1rem;align-items: start;
+    }
+    .flightSearchSection.ytycytckgctd.active{
+        height: 20em;
+    }
+    .flightResultMainbhj{
+        position: relative;
+    }
+    .flightResultMainbhj .filterSection{
+        position: absolute;top: 1rem;width: 20em;z-index: 2;height: 43em;overflow: auto;transform: translateX(-150%);transition: all ease-in-out .4s;
+    }
+    .flightResultMainbhj .filterSection.active{
+        transform: translateX(0%);
+    }
+    .flightResultMainbhj .resultSection{
+        width: 100%;
+    }
+    .flightResultMainbhj .filterSection .hevybooubub .fgweh2qef{
+        display: block;position: absolute;
+    }
+    .searchOneWayBox .prizenvinwe .biiqbbiq{
+        width: 100%;
+    }
+    .srtByTop .fghq3f{
+        display: none;
+    }
+    .srtByTop .fghq3fwvw{
+        display: block;margin-left: 1rem;border: 1px solid #ddd;border-radius: 12px;padding: 2px 1rem;
+    }
+
 }
 
 @media ( max-width: 768px ) {
@@ -43,6 +75,29 @@
     }
     .flightSearchSection .entrySection .firstCh3{
         width: 49%;
+    }
+    .flightSearchSection .entrySection .ewawegWEWE#toDestiDiv{
+        right: 0;
+    }
+
+    .modifySearch .wouehouwvwef{
+        flex-wrap: wrap;
+    }
+    .searchOneWayBox .fguioaecw,
+    .searchOneWayBox .prizenvinwe{
+        display: none;
+    }
+    .searchOneWayBox .tinianscac{
+        width: 100%;
+    }
+    .searchOneWayBox .tinianscac .vghjkw4eg4e .date,
+    .searchOneWayBox .tinianscac .vghjkw4eg4e .time,
+    .searchOneWayBox .tinianscac .vghjkw4eg4e .aiwena{
+        font-size: 12px;
+    }
+
+    .searchOneWayBox .tinianscac .second .iasciascna .direct{
+        margin: 8px 0;
     }
     
 }
@@ -105,6 +160,37 @@
         height: 40px;
     }
 
+    .modifySearch{
+        background: var(--main-clr);padding: 1px;
+    }
+    .modifySearch .fghjkl,
+    .modifySearch .modyvghjkl{
+        display: none;
+    }
+    .modifySearch .gctvyuiljhgbw{
+        background-color: var(--main-clr);padding: 0;
+    }
+    .modifySearch .flightSearchSection.ytycytckgctd{
+        padding: 0 12px;border-radius: 6px;
+    }
+    .modifySearch .flightSearchSection.ytycytckgctd.active{
+        height: 26em;
+    }
+    .modifySearch .flightSearchSection form{
+        padding-top: 10px;
+    }
+
+    .mobModify{
+        display: flex;align-items: center;justify-content: space-between;padding: 10px 0;color: white;font-size: 12px;font-weight: 400;
+    }
+    .mobModify>div:last-child{
+        font-size: 14px;background: #ffffff3a;padding: 6px 10px;border-radius: 6px;
+    }
+
+    .flightResultMainbhj .filterSection{
+        position: fixed;height: 100dvh;width: 100%;top: 0;left: 0;overflow: auto;z-index: 5;border-radius: 0px;
+    }
+
 }
 
 
@@ -118,6 +204,9 @@
     }
     .flightSearchSection .entrySection .firstCh3{
         width: 100%;
+    }
+    .modifySearch .flightSearchSection.ytycytckgctd.active{
+        height: 30em;
     }
     
 }
