@@ -8,14 +8,14 @@ getYear.textContent = currentYear
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        document.getElementById("navbar").classList.add('active')
-        setTimeout(() => {
-            document.getElementById("navbar").classList.add('active1')
-        }, 500);
-    } else {
-        document.getElementById("navbar").classList.remove("active",'active1')
-    }
+    // if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    //     document.getElementById("navbar").classList.add('active')
+    //     setTimeout(() => {
+    //         document.getElementById("navbar").classList.add('active1')
+    //     }, 500);
+    // } else {
+    //     document.getElementById("navbar").classList.remove("active",'active1')
+    // }
 }
 
 $('.responsive').slick({
@@ -47,7 +47,7 @@ $('.responsive').slick({
 
 $(document).ready(function () {
     
-    $("#fromDate").datepicker();
+    // $("#fromDate").datepicker();
     
     $("#departDate").datepicker({
         minDate: 0,
@@ -109,5 +109,14 @@ function handleSubmitAirline(input,div,city,airport,code,country){
         }, 100);
     }
 }
+
+
+$("#validateSearchengine").click(function(){
+    $("#search_popup").show()
+    setTimeout(() => {
+        $("#searchFormSubmit").submit()
+    }, 2000);
+})
+
 
 

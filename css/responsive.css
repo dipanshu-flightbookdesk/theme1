@@ -83,12 +83,16 @@
     .modifySearch .wouehouwvwef{
         flex-wrap: wrap;
     }
+
+    .searchOneWayBoxMain{
+        padding: 8px 0;
+    }
     .searchOneWayBox .fguioaecw,
     .searchOneWayBox .prizenvinwe{
         display: none;
     }
     .searchOneWayBox .tinianscac{
-        width: 100%;
+        width: 100%;border: 0px;
     }
     .searchOneWayBox .tinianscac .vghjkw4eg4e .date,
     .searchOneWayBox .tinianscac .vghjkw4eg4e .time,
@@ -98,6 +102,19 @@
 
     .searchOneWayBox .tinianscac .second .iasciascna .direct{
         margin: 8px 0;
+    }
+    .iiqigvqefqaqf{
+        padding-bottom: 8px;
+    }
+    .moreInfo{
+        font-size: 12px;padding-top: 8px;
+    }
+    .searchTwoniai{
+        width: 100%;border: 0px;
+    }
+
+    .mapContact{
+        height: 20em;
     }
     
 }
