@@ -786,6 +786,56 @@ footer .socialMedia:hover i{
     color: white;background: var(--main-clr);padding: 10px 12px !important;border-radius: 50%;margin-right: 6px;
 }
 
+
+
+/* !---------------  Thank You Page Page ------------------------ */
+
+
+.thankContainer {
+    background-color: #ffffff;color: #333;border-radius: 12px;box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);padding: 40px;max-width: 700px;position: relative;z-index: 2;
+}
+
+.thankContainer h1 {
+    color: #27ae60;font-size: 2.5rem;text-align: center;margin-bottom: 10px;font-weight: bold;
+}
+
+.thankContainer h2 {
+    color: #2c3e50;font-size: 1.5rem;text-align: center;margin-top: 16px;font-weight: 500;
+}
+
+.thankContainer .confirmation-details {
+    text-align: center;font-size: 1rem;line-height: 1.6;
+}
+.thankContainer .confirmation-details p{
+    margin: 14px 0;
+}
+
+.thankContainer .reference-number {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.4rem;
+}
+
+.thankContainer .toll-free {
+    margin-top: 25px;font-size: 1.1rem;text-align: center;color: #34495e;
+}
+
+.thankContainer .toll-free a {
+    color: #3498db;font-weight: bold;text-decoration: none;
+}
+
+.thankContainer .btn {
+    display: block;margin-top: 30px;padding: 12px 25px;background-color: var(--main-clr);color: white;text-align: center;text-decoration: none;font-size: 1.2rem;border-radius: 8px;width: 100%;transition: background-color 0.3s ease;
+}
+
+.thankContainer .btn:hover {
+    background-color: var(--main-clr-2);color: #000;
+}
+
+.thankContainer .logo {
+    display: block;margin: 30px auto;max-width: 250px;
+}
+
 @media (min-width: 992px) {
     
     .cusLink{

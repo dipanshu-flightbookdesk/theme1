@@ -65,7 +65,6 @@ $(document).ready(function () {
         minDate: 0,
         dateFormat: 'dd-mm-yy'
     });
-    
 
     $(".tripType label").click(function(){
         let forVal = $(this).attr('for')
